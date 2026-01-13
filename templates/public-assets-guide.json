@@ -17,7 +17,7 @@
     "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80"
   ],
   "supportedSizes": ["iphone-6.9", "iphone-6.7", "iphone-6.5"],
-  "requiredFonts": ["Inter", "Montserrat"],
+  "requiredFonts": [],
   "schemaVersion": 1,
   "slides": [
     {
@@ -53,49 +53,11 @@
           "borderWidth": 0,
           "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 120,
-            "fontWeight": 800,
-            "fontStyle": "normal",
-            "color": "#ffffff",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.1,
-            "letterSpacing": -2,
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "shadow": {
-              "enabled": true,
-              "blur": 10,
-              "color": "rgba(0,0,0,0.5)",
-              "offset": { "x": 0, "y": 4 }
-            },
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "fontStyle": "normal",
-          "color": "#ffffff",
-          "opacity": 1,
-          "textDecoration": "none",
-          "textAlign": "center",
-          "lineHeight": 1.2,
-          "letterSpacing": -1,
-          "position": { "top": 10, "horizontalPadding": 40 },
-          "shadow": { "enabled": false }
-        },
         "effects": { "noise": 0.02, "vignette": 0.3 }
       },
       "placeholderText": {
-        "headline": "Remote Backgrounds"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
@@ -126,35 +88,19 @@
           "shadow": {
             "enabled": true,
             "blur": 40,
+            "spread": 0,
             "color": "rgba(0,0,0,0.3)",
             "offset": { "x": 10, "y": 20 }
           },
-          "cornerRadius": 40
-        },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Inter",
-            "fontSize": 110,
-            "fontWeight": 700,
-            "textAlign": "center",
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 85,
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "textAlign": "center",
-          "position": { "top": 10, "horizontalPadding": 40 }
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
         },
         "effects": { "noise": 0.01, "vignette": 0.1 }
       },
       "placeholderText": {
-        "headline": "Tilted Devices"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
@@ -167,6 +113,7 @@
           "type": "image",
           "image": {
             "src": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1284&h=2778&fit=crop",
+            "blur": 0,
             "overlay": "rgba(0,0,0,0.2)",
             "fit": "cover"
           },
@@ -176,32 +123,25 @@
           "mode": "2d",
           "variant": "natural-titanium",
           "positionPreset": "centered",
-          "scale": 0.75
-        },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 140,
-            "fontWeight": 900,
-            "textAlign": "center",
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "textAlign": "center",
-          "position": { "top": 10, "horizontalPadding": 40 }
+          "position": { "x": 0, "y": 5 },
+          "scale": 0.75,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 50,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.4)",
+            "offset": { "x": 0, "y": 20 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
         },
         "effects": { "noise": 0.03, "vignette": 0.4 }
       },
       "placeholderText": {
-        "headline": "Bold & Modern"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
@@ -219,33 +159,25 @@
           "mode": "2d",
           "variant": "black-titanium",
           "positionPreset": "floating",
-          "scale": 0.9
-        },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Inter",
-            "fontSize": 90,
-            "fontWeight": 300,
-            "letterSpacing": 8,
-            "textAlign": "center",
-            "position": { "x": 50, "y": 80 },
-            "maxWidth": 80,
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "textAlign": "center",
-          "position": { "top": 10, "horizontalPadding": 40 }
+          "position": { "x": 0, "y": -5 },
+          "scale": 0.9,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 60,
+            "spread": 0,
+            "color": "rgba(0,242,234,0.2)",
+            "offset": { "x": 0, "y": 0 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 1,
+          "borderColor": "rgba(255,255,255,0.1)"
         },
         "effects": { "noise": 0.04, "vignette": 0.6 }
       },
       "placeholderText": {
-        "headline": "Minimalist"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
@@ -258,6 +190,7 @@
           "type": "image",
           "image": {
             "src": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1284&h=2778&fit=crop",
+            "blur": 0,
             "overlay": "rgba(0,0,0,0.4)",
             "fit": "cover"
           },
@@ -266,32 +199,26 @@
         "device": {
           "mode": "2d",
           "variant": "black-titanium",
-          "scale": 0.8
-        },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 110,
-            "fontWeight": 800,
-            "textAlign": "center",
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "textAlign": "center",
-          "position": { "top": 10, "horizontalPadding": 40 }
+          "positionPreset": "centered",
+          "position": { "x": 0, "y": 0 },
+          "scale": 0.8,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 30,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.5)",
+            "offset": { "x": 0, "y": 15 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
         },
         "effects": { "noise": 0.02, "vignette": 0.2 }
       },
       "placeholderText": {
-        "headline": "Ready to Use"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     }
