@@ -1,145 +1,62 @@
 {
-  "id": "glass-accent-assets-guide-v1",
-  "name": "Glass Accent Assets Guide",
-  "description": "A 2D-only template using gradients, glass overlays, accent borders, and layered typography.",
+  "id": "bold-assets-guide-v2",
+  "name": "Bold Assets Guide",
+  "description": "A template showcasing high-impact, bold visual assets and remote image support.",
   "author": "Antigravity",
-  "version": "1.0.0",
-  "createdAt": "2026-01-13T11:00:00Z",
-  "updatedAt": "2026-01-13T11:00:00Z",
-  "styleCategory": "modern",
-  "tags": ["glass", "gradient", "accent", "2d", "soft-depth"],
-  "thumbnail": "https://images.unsplash.com/photo-1557682260-96773eb01377?w=400&h=400&fit=crop",
+  "version": "1.0.2",
+  "createdAt": "2026-01-12T13:00:00Z",
+  "updatedAt": "2026-01-12T13:00:00Z",
+  "styleCategory": "bold",
+  "tags": ["bold", "vibrant", "high-impact", "remote-assets"],
+  "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=400&fit=crop",
   "previewImages": [
-    "https://images.unsplash.com/photo-1557682260-96773eb01377?w=800&q=80",
-    "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
-    "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&q=80",
-    "https://images.unsplash.com/photo-1527430253228-e93688616381?w=800&q=80"
+    "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+    "https://images.unsplash.com/photo-1563089145-599997674d42?w=800&q=80",
+    "https://images.unsplash.com/photo-1557683316-973673baf926?w=800&q=80",
+    "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&q=80",
+    "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80"
   ],
   "supportedSizes": ["iphone-6.9", "iphone-6.7", "iphone-6.5"],
   "requiredFonts": ["Inter"],
   "schemaVersion": 1,
   "slides": [
     {
-      "id": "glass-slide-1",
-      "name": "Gradient Hero",
+      "id": "bold-slide-1",
+      "name": "Slide 1",
       "order": 0,
       "config": {
         "background": {
-          "type": "gradient",
-          "gradient": {
-            "colors": ["#141e30", "#243b55"],
-            "angle": 135
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.2)",
+            "fit": "cover"
           },
-          "noiseIntensity": 0.06
+          "noiseIntensity": 0.05
         },
         "device": {
           "mode": "2d",
           "variant": "black-titanium",
           "positionPreset": "centered",
           "position": { "x": 0, "y": 0 },
-          "scale": 0.85,
+          "scale": 0.8,
           "rotation": { "x": 0, "y": 0, "z": 0 },
           "shadow": {
             "enabled": true,
-            "blur": 50,
-            "spread": 0,
-            "color": "rgba(0,255,200,0.35)",
-            "offset": { "x": 0, "y": 20 }
-          },
-          "cornerRadius": 42,
-          "borderWidth": 2,
-          "borderColor": "rgba(255,255,255,0.25)"
-        },
-        "textLayers": [
-          {
-            "id": "badge",
-            "text": "MODERN UI",
-            "fontFamily": "Inter",
-            "fontSize": 40,
-            "fontWeight": 600,
-            "color": "rgba(200,255,240,0.9)",
-            "position": { "top": 6, "horizontalPadding": 80 }
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 180,
-          "fontWeight": 800,
-          "fontStyle": "normal",
-          "color": "#ffffff",
-          "opacity": 1,
-          "textDecoration": "none",
-          "textAlign": "center",
-          "lineHeight": 1.1,
-          "letterSpacing": -2,
-          "position": { "top": 12, "horizontalPadding": 40 },
-          "shadow": {
-            "enabled": true,
-            "blur": 30,
-            "color": "rgba(0,0,0,0.6)",
-            "offset": { "x": 0, "y": 10 }
-          }
-        },
-        "subheadline": {
-          "fontFamily": "Inter",
-          "fontSize": 84,
-          "fontWeight": 400,
-          "fontStyle": "normal",
-          "color": "rgba(255,255,255,0.8)",
-          "opacity": 1,
-          "textDecoration": "none",
-          "textAlign": "center",
-          "lineHeight": 1.4,
-          "letterSpacing": 0,
-          "position": { "top": 22, "horizontalPadding": 70 },
-          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
-        },
-        "effects": { "noise": 0.06, "vignette": 0.3 }
-      },
-      "placeholderText": {
-        "headline": "",
-        "subheadline": ""
-      },
-      "thumbnail": ""
-    },
-    {
-      "id": "glass-slide-2",
-      "name": "Blurred Backdrop",
-      "order": 1,
-      "config": {
-        "background": {
-          "type": "image",
-          "image": {
-            "src": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1284&h=2778&fit=crop",
-            "blur": 10,
-            "overlay": "rgba(20,20,40,0.45)",
-            "fit": "cover"
-          },
-          "noiseIntensity": 0.03
-        },
-        "device": {
-          "mode": "2d",
-          "variant": "silver",
-          "positionPreset": "tilted-left",
-          "position": { "x": -6, "y": 4 },
-          "scale": 0.88,
-          "rotation": { "x": 0, "y": 0, "z": -6 },
-          "shadow": {
-            "enabled": true,
-            "blur": 45,
-            "spread": 0,
-            "color": "rgba(120,120,255,0.4)",
-            "offset": { "x": 15, "y": 20 }
+            "blur": 40,
+            "spread": 5,
+            "color": "rgba(255,0,255,0.3)",
+            "offset": { "x": 0, "y": 15 }
           },
           "cornerRadius": 40,
-          "borderWidth": 1,
-          "borderColor": "rgba(255,255,255,0.2)"
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
         },
         "textLayers": [],
         "headline": {
           "fontFamily": "Inter",
-          "fontSize": 160,
+          "fontSize": 192,
           "fontWeight": 700,
           "fontStyle": "normal",
           "color": "#ffffff",
@@ -148,15 +65,15 @@
           "textAlign": "center",
           "lineHeight": 1.2,
           "letterSpacing": -1,
-          "position": { "top": 10, "horizontalPadding": 50 },
+          "position": { "top": 10, "horizontalPadding": 40 },
           "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
         },
         "subheadline": {
           "fontFamily": "Inter",
-          "fontSize": 88,
+          "fontSize": 96,
           "fontWeight": 400,
           "fontStyle": "normal",
-          "color": "rgba(220,220,255,0.8)",
+          "color": "rgba(255,255,255,0.8)",
           "opacity": 1,
           "textDecoration": "none",
           "textAlign": "center",
@@ -165,7 +82,287 @@
           "position": { "top": 20, "horizontalPadding": 60 },
           "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
         },
-        "effects": { "noise": 0.03, "vignette": 0.25 }
+        "effects": { "noise": 0.05, "vignette": 0.4 }
+      },
+      "placeholderText": {
+        "headline": "",
+        "subheadline": ""
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "bold-slide-2",
+      "name": "Slide 2",
+      "order": 1,
+      "config": {
+        "background": {
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1563089145-599997674d42?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.1)",
+            "fit": "cover"
+          },
+          "noiseIntensity": 0.02
+        },
+        "device": {
+          "mode": "2d",
+          "variant": "silver",
+          "positionPreset": "tilted-right",
+          "position": { "x": 5, "y": 5 },
+          "scale": 0.85,
+          "rotation": { "x": 0, "y": 0, "z": 8 },
+          "shadow": {
+            "enabled": true,
+            "blur": 35,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.5)",
+            "offset": { "x": -10, "y": 15 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
+        },
+        "textLayers": [],
+        "headline": {
+          "fontFamily": "Inter",
+          "fontSize": 192,
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "color": "#ffffff",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.2,
+          "letterSpacing": -1,
+          "position": { "top": 10, "horizontalPadding": 40 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "subheadline": {
+          "fontFamily": "Inter",
+          "fontSize": 96,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255,255,255,0.8)",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.4,
+          "letterSpacing": 0,
+          "position": { "top": 20, "horizontalPadding": 60 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "effects": { "noise": 0.02, "vignette": 0.2 }
+      },
+      "placeholderText": {
+        "headline": "",
+        "subheadline": ""
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "bold-slide-3",
+      "name": "Slide 3",
+      "order": 2,
+      "config": {
+        "background": {
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1557683316-973673baf926?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.15)",
+            "fit": "cover"
+          },
+          "noiseIntensity": 0.04
+        },
+        "device": {
+          "mode": "2d",
+          "variant": "natural-titanium",
+          "positionPreset": "centered",
+          "position": { "x": 0, "y": 5 },
+          "scale": 0.75,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 50,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.6)",
+            "offset": { "x": 0, "y": 20 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
+        },
+        "textLayers": [],
+        "headline": {
+          "fontFamily": "Inter",
+          "fontSize": 192,
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "color": "#ffffff",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.2,
+          "letterSpacing": -1,
+          "position": { "top": 10, "horizontalPadding": 40 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "subheadline": {
+          "fontFamily": "Inter",
+          "fontSize": 96,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255,255,255,0.8)",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.4,
+          "letterSpacing": 0,
+          "position": { "top": 20, "horizontalPadding": 60 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "effects": { "noise": 0.04, "vignette": 0.3 }
+      },
+      "placeholderText": {
+        "headline": "",
+        "subheadline": ""
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "bold-slide-4",
+      "name": "Slide 4",
+      "order": 3,
+      "config": {
+        "background": {
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1284&h=2778&fit=crop",
+            "blur": 1,
+            "overlay": "rgba(0,0,0,0.3)",
+            "fit": "cover"
+          },
+          "noiseIntensity": 0.03
+        },
+        "device": {
+          "mode": "2d",
+          "variant": "black-titanium",
+          "positionPreset": "floating",
+          "position": { "x": 0, "y": -5 },
+          "scale": 0.9,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 45,
+            "spread": 2,
+            "color": "rgba(0,183,255,0.4)",
+            "offset": { "x": 0, "y": 0 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
+        },
+        "textLayers": [],
+        "headline": {
+          "fontFamily": "Inter",
+          "fontSize": 192,
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "color": "#ffffff",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.2,
+          "letterSpacing": -1,
+          "position": { "top": 10, "horizontalPadding": 40 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "subheadline": {
+          "fontFamily": "Inter",
+          "fontSize": 96,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255,255,255,0.8)",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.4,
+          "letterSpacing": 0,
+          "position": { "top": 20, "horizontalPadding": 60 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "effects": { "noise": 0.03, "vignette": 0.5 }
+      },
+      "placeholderText": {
+        "headline": "",
+        "subheadline": ""
+      },
+      "thumbnail": ""
+    },
+    {
+      "id": "bold-slide-5",
+      "name": "Slide 5",
+      "order": 4,
+      "config": {
+        "background": {
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1574169208507-84376144848b?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.2)",
+            "fit": "cover"
+          },
+          "noiseIntensity": 0.06
+        },
+        "device": {
+          "mode": "2d",
+          "variant": "black-titanium",
+          "positionPreset": "centered",
+          "position": { "x": 0, "y": 0 },
+          "scale": 0.8,
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "shadow": {
+            "enabled": true,
+            "blur": 40,
+            "spread": 0,
+            "color": "rgba(0,0,0,0.7)",
+            "offset": { "x": 0, "y": 15 }
+          },
+          "cornerRadius": 40,
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
+        },
+        "textLayers": [],
+        "headline": {
+          "fontFamily": "Inter",
+          "fontSize": 192,
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "color": "#ffffff",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.2,
+          "letterSpacing": -1,
+          "position": { "top": 10, "horizontalPadding": 40 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "subheadline": {
+          "fontFamily": "Inter",
+          "fontSize": 96,
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "color": "rgba(255,255,255,0.8)",
+          "opacity": 1,
+          "textDecoration": "none",
+          "textAlign": "center",
+          "lineHeight": 1.4,
+          "letterSpacing": 0,
+          "position": { "top": 20, "horizontalPadding": 60 },
+          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
+        },
+        "effects": { "noise": 0.06, "vignette": 0.4 }
       },
       "placeholderText": {
         "headline": "",
