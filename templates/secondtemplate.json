@@ -1,39 +1,39 @@
 {
-  "id": "public-assets-guide",
-  "name": "Public Assets Guide",
-  "description": "A showcase template demonstrating support for public image URLs and remote assets.",
+  "id": "bold-assets-guide",
+  "name": "Bold Assets Guide",
+  "description": "A template showcasing high-impact, bold visual assets and remote image support.",
   "author": "Antigravity",
   "version": "1.0.0",
-  "createdAt": "2026-01-12T12:00:00Z",
-  "updatedAt": "2026-01-12T12:00:00Z",
-  "styleCategory": "custom",
-  "tags": ["guide", "images", "remote-assets"],
-  "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&h=400&fit=crop",
+  "createdAt": "2026-01-12T13:00:00Z",
+  "updatedAt": "2026-01-12T13:00:00Z",
+  "styleCategory": "bold",
+  "tags": ["bold", "vibrant", "high-impact", "remote-assets"],
+  "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=400&fit=crop",
   "previewImages": [
-    "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
-    "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&q=80",
-    "https://images.unsplash.com/photo-1557683316-973673baf926?w=800&q=80",
-    "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&q=80",
-    "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80"
+    "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+    "https://images.unsplash.com/photo-1614850523296-e8c041df4f24?w=800&q=80",
+    "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&q=80",
+    "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&q=80",
+    "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=800&q=80"
   ],
   "supportedSizes": ["iphone-6.9", "iphone-6.7", "iphone-6.5"],
-  "requiredFonts": ["Inter", "Montserrat"],
+  "requiredFonts": [],
   "schemaVersion": 1,
   "slides": [
     {
-      "id": "guide-slide-1",
+      "id": "bold-slide-1",
       "name": "Slide 1",
       "order": 0,
       "config": {
         "background": {
           "type": "image",
           "image": {
-            "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1284&h=2778&fit=crop",
-            "blur": 2,
-            "overlay": "rgba(0,0,0,0.3)",
+            "src": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.2)",
             "fit": "cover"
           },
-          "noiseIntensity": 0.02
+          "noiseIntensity": 0.05
         },
         "device": {
           "mode": "2d",
@@ -44,150 +44,78 @@
           "rotation": { "x": 0, "y": 0, "z": 0 },
           "shadow": {
             "enabled": true,
-            "blur": 30,
-            "spread": 0,
-            "color": "rgba(0,0,0,0.5)",
+            "blur": 40,
+            "spread": 5,
+            "color": "rgba(255,0,255,0.3)",
             "offset": { "x": 0, "y": 15 }
           },
           "cornerRadius": 40,
           "borderWidth": 0,
           "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 120,
-            "fontWeight": 800,
-            "fontStyle": "normal",
-            "color": "#ffffff",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.1,
-            "letterSpacing": -2,
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "shadow": { "enabled": true, "blur": 10, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 4 } },
-            "zIndex": 10
-          }
-        ],
-        "headline": {
-          "fontFamily": "Inter",
-          "fontSize": 192,
-          "fontWeight": 700,
-          "fontStyle": "normal",
-          "color": "#ffffff",
-          "opacity": 1,
-          "textDecoration": "none",
-          "textAlign": "center",
-          "lineHeight": 1.2,
-          "letterSpacing": -1,
-          "position": { "top": 10, "horizontalPadding": 40 },
-          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
-        },
-        "subheadline": {
-          "fontFamily": "Inter",
-          "fontSize": 96,
-          "fontWeight": 400,
-          "fontStyle": "normal",
-          "color": "rgba(255,255,255,0.8)",
-          "opacity": 1,
-          "textDecoration": "none",
-          "textAlign": "center",
-          "lineHeight": 1.4,
-          "letterSpacing": 0,
-          "position": { "top": 20, "horizontalPadding": 60 },
-          "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } }
-        },
-        "effects": { "noise": 0.02, "vignette": 0.3 }
+        "effects": { "noise": 0.05, "vignette": 0.4 }
       },
       "placeholderText": {
-        "headline": "Remote Backgrounds",
-        "subheadline": "Public URLs are supported"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
     {
-      "id": "guide-slide-2",
+      "id": "bold-slide-2",
       "name": "Slide 2",
       "order": 1,
       "config": {
         "background": {
-          "type": "gradient",
-          "gradient": {
-            "type": "linear",
-            "angle": 135,
-            "stops": [
-              { "color": "#a18cd1", "position": 0 },
-              { "color": "#fbc2eb", "position": 100 }
-            ]
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1614850523296-e8c041df4f24?w=1284&h=2778&fit=crop",
+            "blur": 0,
+            "overlay": "rgba(0,0,0,0.1)",
+            "fit": "cover"
           },
-          "noiseIntensity": 0.01
+          "noiseIntensity": 0.02
         },
         "device": {
           "mode": "2d",
           "variant": "silver",
-          "positionPreset": "tilted-left",
-          "position": { "x": -5, "y": 5 },
+          "positionPreset": "tilted-right",
+          "position": { "x": 5, "y": 5 },
           "scale": 0.85,
-          "rotation": { "x": 0, "y": 0, "z": -5 },
+          "rotation": { "x": 0, "y": 0, "z": 8 },
           "shadow": {
             "enabled": true,
-            "blur": 40,
+            "blur": 35,
             "spread": 0,
-            "color": "rgba(0,0,0,0.3)",
-            "offset": { "x": 10, "y": 20 }
+            "color": "rgba(0,0,0,0.5)",
+            "offset": { "x": -10, "y": 15 }
           },
           "cornerRadius": 40,
           "borderWidth": 0,
           "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Inter",
-            "fontSize": 110,
-            "fontWeight": 700,
-            "fontStyle": "normal",
-            "color": "#ffffff",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.2,
-            "letterSpacing": 0,
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 85,
-            "shadow": { "enabled": true, "blur": 8, "color": "rgba(0,0,0,0.2)", "offset": { "x": 0, "y": 2 } },
-            "zIndex": 10
-          }
-        ],
-        "headline": { "fontFamily": "Inter", "fontSize": 192, "fontWeight": 700, "fontStyle": "normal", "color": "#ffffff", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.2, "letterSpacing": -1, "position": { "top": 10, "horizontalPadding": 40 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "subheadline": { "fontFamily": "Inter", "fontSize": 96, "fontWeight": 400, "fontStyle": "normal", "color": "rgba(255,255,255,0.8)", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.4, "letterSpacing": 0, "position": { "top": 20, "horizontalPadding": 60 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "effects": { "noise": 0.01, "vignette": 0.1 }
+        "effects": { "noise": 0.02, "vignette": 0.2 }
       },
       "placeholderText": {
-        "headline": "Tilted Devices",
-        "subheadline": "Full control over device orientation"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
     {
-      "id": "guide-slide-3",
+      "id": "bold-slide-3",
       "name": "Slide 3",
       "order": 2,
       "config": {
         "background": {
           "type": "image",
           "image": {
-            "src": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=1284&h=2778&fit=crop",
+            "src": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=1284&h=2778&fit=crop",
             "blur": 0,
-            "overlay": "rgba(0,0,0,0.2)",
+            "overlay": "rgba(0,0,0,0.15)",
             "fit": "cover"
           },
-          "noiseIntensity": 0.03
+          "noiseIntensity": 0.04
         },
         "device": {
           "mode": "2d",
@@ -200,52 +128,35 @@
             "enabled": true,
             "blur": 50,
             "spread": 0,
-            "color": "rgba(0,0,0,0.4)",
+            "color": "rgba(0,0,0,0.6)",
             "offset": { "x": 0, "y": 20 }
           },
           "cornerRadius": 40,
           "borderWidth": 0,
           "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 140,
-            "fontWeight": 900,
-            "fontStyle": "normal",
-            "color": "#ffffff",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.0,
-            "letterSpacing": -4,
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "shadow": { "enabled": true, "blur": 15, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 6 } },
-            "zIndex": 10
-          }
-        ],
-        "headline": { "fontFamily": "Inter", "fontSize": 192, "fontWeight": 700, "fontStyle": "normal", "color": "#ffffff", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.2, "letterSpacing": -1, "position": { "top": 10, "horizontalPadding": 40 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "subheadline": { "fontFamily": "Inter", "fontSize": 96, "fontWeight": 400, "fontStyle": "normal", "color": "rgba(255,255,255,0.8)", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.4, "letterSpacing": 0, "position": { "top": 20, "horizontalPadding": 60 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "effects": { "noise": 0.03, "vignette": 0.4 }
+        "effects": { "noise": 0.04, "vignette": 0.3 }
       },
       "placeholderText": {
-        "headline": "Bold & Modern",
-        "subheadline": "Impactful textures and type"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
     {
-      "id": "guide-slide-4",
+      "id": "bold-slide-4",
       "name": "Slide 4",
       "order": 3,
       "config": {
         "background": {
-          "type": "solid",
-          "solid": "#0a0a0a",
-          "noiseIntensity": 0.04
+          "type": "image",
+          "image": {
+            "src": "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1284&h=2778&fit=crop",
+            "blur": 1,
+            "overlay": "rgba(0,0,0,0.3)",
+            "fit": "cover"
+          },
+          "noiseIntensity": 0.03
         },
         "device": {
           "mode": "2d",
@@ -256,59 +167,37 @@
           "rotation": { "x": 0, "y": 0, "z": 0 },
           "shadow": {
             "enabled": true,
-            "blur": 60,
-            "spread": 0,
-            "color": "rgba(0,242,234,0.2)",
+            "blur": 45,
+            "spread": 2,
+            "color": "rgba(0,183,255,0.4)",
             "offset": { "x": 0, "y": 0 }
           },
           "cornerRadius": 40,
-          "borderWidth": 1,
-          "borderColor": "rgba(255,255,255,0.1)"
+          "borderWidth": 0,
+          "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Inter",
-            "fontSize": 90,
-            "fontWeight": 300,
-            "fontStyle": "normal",
-            "color": "#00f2ea",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.2,
-            "letterSpacing": 8,
-            "position": { "x": 50, "y": 80 },
-            "maxWidth": 80,
-            "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } },
-            "zIndex": 10
-          }
-        ],
-        "headline": { "fontFamily": "Inter", "fontSize": 192, "fontWeight": 700, "fontStyle": "normal", "color": "#ffffff", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.2, "letterSpacing": -1, "position": { "top": 10, "horizontalPadding": 40 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "subheadline": { "fontFamily": "Inter", "fontSize": 96, "fontWeight": 400, "fontStyle": "normal", "color": "rgba(255,255,255,0.8)", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.4, "letterSpacing": 0, "position": { "top": 20, "horizontalPadding": 60 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "effects": { "noise": 0.04, "vignette": 0.6 }
+        "effects": { "noise": 0.03, "vignette": 0.5 }
       },
       "placeholderText": {
-        "headline": "Minimalist",
-        "subheadline": "Sleek dark mode design"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     },
     {
-      "id": "guide-slide-5",
+      "id": "bold-slide-5",
       "name": "Slide 5",
       "order": 4,
       "config": {
         "background": {
           "type": "image",
           "image": {
-            "src": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1284&h=2778&fit=crop",
+            "src": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1284&h=2778&fit=crop",
             "blur": 0,
-            "overlay": "rgba(0,0,0,0.4)",
+            "overlay": "rgba(0,0,0,0.2)",
             "fit": "cover"
           },
-          "noiseIntensity": 0.02
+          "noiseIntensity": 0.06
         },
         "device": {
           "mode": "2d",
@@ -319,42 +208,20 @@
           "rotation": { "x": 0, "y": 0, "z": 0 },
           "shadow": {
             "enabled": true,
-            "blur": 30,
+            "blur": 40,
             "spread": 0,
-            "color": "rgba(0,0,0,0.5)",
+            "color": "rgba(0,0,0,0.7)",
             "offset": { "x": 0, "y": 15 }
           },
           "cornerRadius": 40,
           "borderWidth": 0,
           "borderColor": "#ffffff"
         },
-        "textLayers": [
-          {
-            "id": "headline_layer",
-            "name": "Headline",
-            "fontFamily": "Montserrat",
-            "fontSize": 110,
-            "fontWeight": 800,
-            "fontStyle": "normal",
-            "color": "#ffffff",
-            "opacity": 1,
-            "textDecoration": "none",
-            "textAlign": "center",
-            "lineHeight": 1.2,
-            "letterSpacing": -1,
-            "position": { "x": 50, "y": 15 },
-            "maxWidth": 80,
-            "shadow": { "enabled": true, "blur": 10, "color": "rgba(0,0,0,0.3)", "offset": { "x": 0, "y": 4 } },
-            "zIndex": 10
-          }
-        ],
-        "headline": { "fontFamily": "Inter", "fontSize": 192, "fontWeight": 700, "fontStyle": "normal", "color": "#ffffff", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.2, "letterSpacing": -1, "position": { "top": 10, "horizontalPadding": 40 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "subheadline": { "fontFamily": "Inter", "fontSize": 96, "fontWeight": 400, "fontStyle": "normal", "color": "rgba(255,255,255,0.8)", "opacity": 1, "textDecoration": "none", "textAlign": "center", "lineHeight": 1.4, "letterSpacing": 0, "position": { "top": 20, "horizontalPadding": 60 }, "shadow": { "enabled": false, "blur": 0, "color": "rgba(0,0,0,0.5)", "offset": { "x": 0, "y": 0 } } },
-        "effects": { "noise": 0.02, "vignette": 0.2 }
+        "effects": { "noise": 0.06, "vignette": 0.4 }
       },
       "placeholderText": {
-        "headline": "Ready to Use",
-        "subheadline": "Templates for every occasion"
+        "headline": "",
+        "subheadline": ""
       },
       "thumbnail": ""
     }
